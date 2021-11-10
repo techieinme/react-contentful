@@ -1,0 +1,55 @@
+.post__back {
+    display: block;
+    width: 100%;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 1rem;
+    text-decoration: none;
+    transition: background-color ease 200ms;
+    position: sticky;
+    top: 0;
+  }
+  
+  .post__back:hover {
+    background-color: #333;
+    color: #f4f4f4;
+  }
+  
+  .post {
+    position: relative;
+    background-color: #fff;
+  }
+  
+  .post__intro,
+  .post__body {
+    padding: 1rem 5rem;
+  }
+  
+  .post__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .post__intro__desc {
+    max-width: 800px;
+  }
+  
+  .post__intro__img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .post__body {
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  .post__body p {
+    font-size: 1.1rem;
+    line-height: 28px;
+  }
+  
